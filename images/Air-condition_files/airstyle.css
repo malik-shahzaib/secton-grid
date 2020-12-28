@@ -1,0 +1,947 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&amp;display=swap");
+/*----- Default CSS -----*/
+body {
+  font-family: "Rubik", sans-serif;
+  color: #565353;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Quicksand", sans-serif;
+  color: #252525;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.8;
+}
+
+a {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*.d-table {
+  width: 100%;
+  height: 100%;
+}
+
+.d-table-cell {
+  vertical-align: middle;
+}
+
+.ptb-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.btn.focus, .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}*/
+
+.container {
+  max-width: 1160px;
+}
+
+/*----- End Default CSS -----*/
+/*----- Sass CSS -----*/
+
+/*-------------------------------------------------------------------------------------
+    HEADER
+---------------------------------------------------------------------------------------*/
+
+.header_area {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  z-index: 35;
+  top: 0px;
+}
+
+.logo_part {
+  padding: 35px 0px 50px 0px;
+ /* border-bottom: 1px dashed #0a406d;*/
+  position: relative;
+}
+.justify-content-between {
+    justify-content: space-between!important;
+}
+.d-flex {
+    display: flex!important;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+  }
+
+
+/* .right .media {
+    margin-right: 55px;
+    position: relative;
+}
+.media {
+    
+    display: flex;
+    align-items: flex-start;
+}
+.media .d-flex {
+    padding-right: 13px;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    vertical-align: middle;
+        display: flex!important;
+}
+.right .media .media-body {
+    vertical-align: middle;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+}*/
+
+ /* .logo_part .logo_inner .right {
+    display: flex;
+}
+.logo_part .logo_inner .right .media {
+    margin-right: 55px;
+    position: relative;
+}
+.media {
+    
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .logo_part .logo_inner .right .media:before {
+    content: "";
+    background: url(../img/icon/line-shap.png) no-repeat scroll center center;
+    width: 2px;
+    height: 82px;
+    position: absolute;
+    right: -28px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}*/
+
+
+
+/*
+.logo_part .logo_inner .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+   .right .media {
+    margin-right: 55px;
+    position: relative;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+  }*/
+
+
+
+
+
+/*
+.media-body {
+    -ms-flex: 1;
+    flex: 1;
+    }
+.logo_part .logo_inner .right .media .d-flex {
+    padding-right: 13px;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    vertical-align: middle;
+}
+
+.main_menu .navbar {
+    background: #0e59a9 !important;
+    position: relative;
+    padding: 0px;
+}
+.navbar {
+    position: relative;   
+    display: flex;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+
+*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------
+    QUALITY HEATING & COOLING SERVICES
+---------------------------------------------------------------------------------------*/
+.Heating{
+  padding-bottom: 30px;
+}
+.quality-img img{
+  height: 450px;
+  border-radius: 20px;
+
+}
+
+.quality h2 span {
+  color: blue;
+}
+.quality p {
+
+    font-size: 14px;
+    color: #777777;
+    line-height: 24px;
+}
+.quality h2{
+      font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+
+
+
+.cmn-btn
+{
+    margin-top: 25px;
+    display: inline-block;
+    color: #fff;
+    background-color: #2948ff;
+    border-radius: 30px;
+    padding-right: 28px;
+    padding-left: 32px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    height: 50px;
+    line-height: 50px;
+}
+.cmn-btn1
+{
+    margin-top: 15px;
+    display: inline-block;
+    color: #fff;
+    background-color: #2948ff;
+    border-radius: 30px;
+    padding-right: 28px;
+    padding-left: 32px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 200px;
+    text-align: center;
+
+}
+
+
+/*-------------------------------------------------------------------------------------
+    Services
+---------------------------------------------------------------------------------------*/
+.bestplumber{
+  padding-top: 350px;
+   padding-bottom: 70px;
+
+  margin-top: 20px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+#services {
+    background-color: rgba(236, 74, 113, 0.1);
+    padding: 50px 0
+
+}
+.service-single-item h4 {
+    font-weight: 500;
+    font-weight: bold;
+    font-size: 20px;
+}
+.service-single-item i {
+    color: #ec4a71;
+    font-size: 40px;
+    padding: 0 0 5px;
+    display: inline-block;
+}
+
+.service-single-item {
+    -webkit-box-shadow: 0 0 4px 0 #ccc;
+    box-shadow: 0 0 4px 0 #ccc;
+    border-radius: 4px;
+    padding: 55px 20px 40px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    -webkit-transition: 0.3s;
+    transition: 0.3s
+}
+
+.service-single-item:hover {
+    -webkit-box-shadow: 0 0 10px 0 #ccc;
+    box-shadow: 0 0 10px 0 #ccc;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05)
+}
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------
+    Counter
+---------------------------------------------------------------------------------------*/
+#counter {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 80px 0 70px
+}
+
+#counter .counter-overlay {
+    /*background-color: rgba(236, 74, 113, 0.8);*/
+    background-color: #002E5B;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+
+.counter-single-item i {
+    font-size: 45px;
+    color: #fff;
+}
+
+.counter-single-item h2 {
+    font-size: 60px;
+    color: yellow;
+    margin: 25px 0 0;
+    font-weight: 20px;
+}
+
+.counter-single-item h5 {
+    font-size: 17px;
+    color: gray;    
+    margin: 20px 0 0;
+     font-weight: 700;
+}
+
+
+.counter-single-item h4 {
+    color: #fff;
+    font-weight: 700;
+    margin: 8px 0 0;
+    font-size: 20px;
+}
+
+
+
+ /*-------------------------------------------------------------------------------------
+     Air supply Advantage start
+---------------------------------------------------------------------------------------*/
+@media screen and (max-width: 768px)
+{
+  .column
+  {
+    text-align: center !important;
+  }
+
+}
+
+.supply{
+  padding-top: 50px;
+  padding-bottom: 70px;
+
+}
+.supply p{
+color: #002E5B;
+}
+.section-heading{
+  padding-bottom: 50px;
+  text-align: center;
+}
+.supply h2{
+  color:  #002E5B;
+}
+.round-img{
+  width:  300px;
+  text-align: center;
+}
+
+
+
+/*-------------------------------------------------------------------------------------
+    Our Projects
+---------------------------------------------------------------------------------------*/
+@media screen and (max-width: 768px)
+{
+ /* .img-responsive1 {
+  margin-bottom: 10px; 
+   height: 250px;
+   width: 200px;
+   }
+*/
+
+}
+
+.our-projects{
+  background-color: gray;
+}
+
+
+.projecthead h2 {
+ margin-left: 18%;
+/* font-size: 20px;
+ font-weight: bold;*/
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 40px;
+
+}
+.section-heading h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 40px;
+}
+.img-projects{
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 40px;
+
+}
+.img-responsive1 {
+  margin-bottom: 10px; 
+   height: 250px;
+}
+
+
+/*-------------------------------------------------------------------------------------
+    Call Area
+---------------------------------------------------------------------------------------*/
+
+.class-area{
+ padding-top: 50px;
+  padding-bottom: 70px;
+}
+.area-class{  background-color: blue;
+  text-align: center; 
+}
+.area-class h2{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: white;
+  padding-top: 100px;
+   padding-bottom: 70px;
+}
+.area-class h2 span{
+  color: yellow;
+
+}
+
+/*-------------------------------------------------------------------------------------
+    Request Area
+---------------------------------------------------------------------------------------*/
+.reqest-area{
+/*  padding-top: 70px;*/
+  /*padding-bottom: 70px;*/
+}
+@media screen and (max-width: 768px)
+{
+  .form-control
+  {
+
+  }
+  .cmn-btn1{
+    text-align: center;
+  }
+
+
+}
+@media screen and (max-width: 992px)
+{
+  
+  .cmn-btn1{
+    text-align: center;
+  }
+
+
+}
+@media screen and (max-width: 992px)
+{
+  
+  .img-res{
+    margin-top: 20px;
+  }
+
+
+}
+@media screen and (max-width: 768px)
+{
+  .img-res
+  {
+     margin-top: 20px;
+  }
+  
+
+
+}
+
+
+
+.form-control{
+  border-radius: 20px;
+  padding: 25px;
+
+}
+.formm{
+  margin-right: 40px;
+}
+
+
+/*-------------------------------------------------------------------------------------
+    Admin Area
+---------------------------------------------------------------------------------------*/
+.admin-area{
+padding-top: 100px;
+  padding-bottom: 70px;
+
+  
+}
+.portfolio-single-item {
+    margin-bottom: 30px;
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+}
+.portfolio-inner {
+    position: relative;
+}
+#team {
+    padding: 50px 0 80px
+}
+
+.team-single-item {
+    -webkit-box-shadow: 0 0 6px 0px #ccc;
+    box-shadow: 0 0 6px 0px #ccc;
+    padding: 0 0 30px;
+    border-radius: 4px
+}
+
+.team-single-item img {
+    border-radius: 4px 4px 0 0
+}
+
+.team-info h4 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.team-info {
+    padding: 24px 0 8px;
+}
+
+
+
+/*-------------------------------------------------------------------------------------
+    Testimonials Area
+---------------------------------------------------------------------------------------*/
+
+
+/*-- Testimonials --*/
+.testimonials-area {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-color: #f7f7f7;
+  background-image: url("bootstrap-4.5.2-dist/img/digital/testimonials-bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.testimonials-area .section-title.three {
+  text-align: center;
+}
+
+.testimonials-area .testimonials-item {
+  text-align: center;
+  max-width: 830px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.testimonials-area .testimonials-item p {
+  margin-top: 70px;
+  font-size: 22px;
+  color: #64607c;
+  margin-bottom: 25px;
+  color: black;
+
+}
+
+.testimonials-area .testimonials-item h3 {
+  font-size: 20px;
+  color: #252525;
+  margin-bottom: 5px;
+}
+
+.testimonials-area .testimonials-item span {
+  display: block;
+  font-size: 15px;
+}
+
+
+.testimonials-area .owl-prev {
+  color: #fff !important;
+  font-size: 25px !important;
+  position: relative;
+  z-index: 1;
+  position: absolute;
+  top: 30px;
+  left: 70px;
+}
+
+.testimonials-area .owl-prev:before {
+  position: absolute;
+  content: '';
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  background-color: #2948ff;
+  z-index: -1;
+}
+
+.testimonials-area .owl-prev i {
+  line-height: 25px;
+  position: relative;
+  top: -1px;
+  right: -11px;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+.testimonials-area .owl-prev:hover {
+  background-color: transparent !important;
+}
+
+.testimonials-area .owl-prev:hover i {
+  right: 0;
+}
+
+.testimonials-area .owl-next {
+  color: #fff !important;
+  font-size: 25px !important;
+  position: relative;
+  z-index: 1;
+  position: absolute;
+  top: 30px;
+  right: 70px;
+}
+
+.testimonials-area .owl-next:before {
+  position: absolute;
+  content: '';
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+  background-color: #2948ff;
+  z-index: -1;
+}
+
+.testimonials-area .owl-next i {
+  line-height: 25px;
+  position: relative;
+  top: -1px;
+  left: -11px;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+.testimonials-area .owl-next:hover {
+  background-color: transparent !important;
+}
+
+.testimonials-area .owl-next:hover i {
+  left: 0;
+}
+
+.testimonials-area .testimonials-img img {
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  -webkit-box-shadow: 0px 0px 20px 0px #dddddd4a;
+          box-shadow: 0px 0px 20px 0px #dddddd4a;
+}
+
+.testimonials-area .testimonials-img img:nth-child(1) {
+  top: 50px;
+  left: 42%;
+  max-width: 60px;
+}
+
+
+/*.testimonials-area .testimonials-img img:nth-child(2) {
+  top: 200px;
+  left: 50px;
+  max-width: 140px;
+}*/
+
+.testimonials-area .testimonials-img img:nth-child(2) {
+  top: 40px;
+  right: 47%;
+  max-width: 80px;
+}
+
+.testimonials-area .testimonials-img img:nth-child(3) {
+  top: 50px;
+  right: 42%;
+  max-width: 60px;
+}
+
+/*
+.testimonials-area .testimonials-img img:nth-child(5) {
+  top: 200px;
+  right: 50px;
+  max-width: 140px;
+}
+
+.testimonials-area .testimonials-img img:nth-child(6) {
+  bottom: 80px;
+  right: 300px;
+  max-width: 85px;
+}
+*/
+
+
+/*-- End Testimonials --*/
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------
+    Logo Area
+---------------------------------------------------------------------------------------*/
+
+
+
+.Logo-area{
+   padding-top: 100px;
+  padding-bottom: 70px;
+
+
+}
+
+
+
+/* Footer Area css
+============================================================================================ */
+.footer_widgets {
+  background: #002E5B;;
+  padding-top: 70px;
+  padding-bottom: 65px;
+}
+
+.f_title {
+  margin-bottom: 20px;
+}
+
+.f_title h3 {
+  margin-bottom: 0px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.contact_widget .footer_address p {
+  color: #9ba8c0;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 6px;
+}
+
+.contact_widget .footer_address p a {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Open Sans", sans-serif;
+  color: #9ba8c0;
+}
+
+.link_widget {
+  margin-left: -25px;
+  max-width: 360px;
+}
+
+.link_widget .nav {
+  display: block;
+  -webkit-columns: 2;
+  columns: 2;
+  margin-bottom: -7px;
+}
+
+.link_widget .nav li {
+  margin-bottom: 7px;
+}
+
+.link_widget .nav li a {
+  font-size: 16px;
+  color: #9ba8c0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+}
+
+.link_widget .nav li:hover a {
+  color: #d63343;
+}
+
+.link_widget .nav li:last-child a {
+  font-weight: bold;
+  line-height: 20px;
+  display: inline-block;
+}
+
+.payment_widget {
+  margin-left: -42px;
+}
+
+.payment_widget .media .d-flex {
+  padding-right: 30px;
+}
+
+.payment_widget .media .media-body {
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.payment_widget .media .media-body h4 {
+  color: #fff;
+  font-size: 24px;
+  line-height: 34px;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+.payment_widget h5 {
+  color: #fff;
+  padding-left: 45px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.payment_widget h5 img {
+  padding-left: 20px;
+}
+
+.footer_copyright {
+  background: #091222;
+  padding: 28px 0px;
+}
+
+.footer_copyright .left p {
+  margin-bottom: 0px;
+  font-size: 16px;
+  color: rgba(155, 168, 192, 0.5);
+  font-weight: normal;
+}
+
+.footer_copyright .left p a {
+  color: rgba(155, 168, 192, 0.5);
+}
+
+.footer_copyright .right a {
+  color: rgba(155, 168, 192, 0.5);
+  padding-right: 20px;
+  font-size: 16px;
+  position: relative;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+}
+
+.footer_copyright .right a:before {
+  content: '|';
+  position: absolute;
+  right: 3px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: rgba(155, 168, 192, 0.5);
+}
+
+.footer_copyright .right a:last-child {
+  padding-right: 0px;
+}
+
+.footer_copyright .right a:last-child:before {
+  display: none;
+}
+
+.footer_copyright .right a:hover {
+  color: #d63343;
+}
+
+/* End Footer Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+
+
+
